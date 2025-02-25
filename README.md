@@ -1,16 +1,39 @@
-# wifi_card
+# WiFi QR Code Generator
 
-A new Flutter project.
+A simple **Flutter Web App** that generates a **WiFi QR Code**. When scanned, the QR code automatically connects the user to the WiFi network without manually entering the credentials.
 
-## Getting Started
+## 🚀 Features
+- Enter **WiFi Name (SSID)** and **Password**
+- Select **Encryption Type** (WPA, WEP, or open network)
+- Generates a **QR Code** that directly connects to WiFi
+- Works on **mobile & desktop browsers**
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Technologies Used
+- **Flutter Web**
+- `qr_flutter` package for QR code generation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🎯 How to Use
+1. **Enter WiFi Name (SSID)**
+2. **Enter Password** (if applicable)
+3. **Select Encryption Type**
+4. Click **"Generate QR Code"**
+5. Scan the QR code using a mobile device to connect to WiFi
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🔧 Installation
+To run the project locally:
+
+```sh
+git clone https://github.com/yourusername/wifi-qr-generator.git
+cd wifi-qr-generator
+flutter pub get
+flutter run -d chrome
+```
+## 📄 License
+This project is licensed under the **MIT License**.
+
+## 🙌 Contributing
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+
+
